@@ -120,6 +120,22 @@
         $(".window-tint").show();
         $(".paint-protection").hide();
     })
+
+    $('.paintprotectionheadquote').on('click',function(){
+        if($(".paint-protectionq").css("display") == 'none' || $(".paint-protectionq").css("visibility") == "hidden"){
+            $(".paint-protectionq").show();
+        }
+        else
+            $(".paint-protectionq").hide();
+    })
+
+    $('.windowtintheadquote').on('click',function(){
+        if($(".window-tintq").css("display") == 'none' || $(".window-tintq").css("visibility") == "hidden"){
+            $(".window-tintq").show();
+        }
+        else
+            $(".window-tintq").hide();
+    })
     
     
     /*----------------------------------------------------*/
